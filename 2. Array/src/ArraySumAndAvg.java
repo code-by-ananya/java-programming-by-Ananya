@@ -1,6 +1,4 @@
-import java.util.Scanner;
-
-public class ArraySumandAvg {
+public class ArraySumAndAvg {
     public static void main(String[] args) {
     int[] numArray = ArrayUtility.InputArray();
     int add = sum(numArray);
