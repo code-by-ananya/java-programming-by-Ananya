@@ -1,0 +1,31 @@
+import java.util.Scanner;
+
+public class Searching2DArray {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.println("welcome to 2d array searching");
+        int [][] numArr = ArrayUtility.Input2DArray();
+        System.out.print("now enter the number you want to search: ");
+        int num  = input.nextInt();
+        boolean isFound = search(numArr, num);
+        if(isFound){
+            System.out.println("your number is found");
+        }else{
+            System.out.println("your number is not found");
+        }
+    }
+
+    public static boolean search(int [][]numArr, int num){
+        int i = 0;
+        while (i < numArr.length){
+            int j = 0;
+            while (j < numArr[i].length){
+                if(numArr[i][j] == num){
+                    return true;
+                }
+            }
+        }
+
+        return false;
+    }
+}
