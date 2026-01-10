@@ -1,7 +1,25 @@
-public class Driver {
-    public static void main(String[] args) {
+public class DriverClass{
+    static int minAge = 18;
+    int driverAge;
 
-        Car mycar = new Car();
-        mycar.drive();
+
+
+    public boolean isAllowed(){
+        return this.driverAge >= minAge;
     }
 }
+
+
+
+public static void main(String[] args) {
+
+    Car mycar = new Car("Green");
+    System.out.println(DriverClass.minAge);
+    Car driveCar = mycar.start();
+    driveCar.drive();
+    mycar.drive();
+    System.out.println(mycar.color);
+    Car swift = mycar.start();
+
+}
+
