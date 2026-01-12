@@ -1,8 +1,17 @@
 class Book {
+    static int totalBook;
     String title;
     String author;
     int isbn;
-    static int totalBook = 30;
+    boolean isBorrrowed;
+
+    static {
+        totalBook = 0;
+    }
+
+    {
+        totalBook++;
+    }
 
     Book(int isbn, String title, String author) {
         this.author = author;
@@ -10,13 +19,27 @@ class Book {
         this.title = title;
     }
 
+    Book(int isbn){
+        this.isbn = isbn;
+    }
+
 
     public void borrowBook() {
-        System.out.println("this book is borrowed");
+        if (isBorrrowed){
+            System.out.println("you already borrow this book");
+        }else {
+            this.isBorrrowed = true;
+            System.out.println("you can borrow this book");
+        }
     }
 
     public void returnedBook() {
-        System.out.println("this book is returned");
+        if (isBorrrowed){
+            this.isBorrrowed = false;
+            System.out.println("book is returned, hope you enjoyed");
+        }else {
+            System.out.println("the book is already in the library");
+        }
     }
 
     public static void getTotalBooks() {
@@ -25,9 +48,14 @@ class Book {
 
 
     public static void main(String[] args) {
-        Book mybook = new Book(1, "book", "name");
-        mybook.borrowBook();
+        Book mybook1 = new Book(1, "book", "name");
+        Book mybook2 = new Book(2);
+        mybook1.borrowBook();
+        mybook2.borrowBook();
         Book.getTotalBooks();
-        mybook.returnedBook();
+        mybook1.borrowBook();
+        mybook1.returnedBook();
+        mybook2.returnedBook();
+        mybook2.returnedBook();
     }
 }
