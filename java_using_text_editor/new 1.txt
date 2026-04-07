@@ -1,7 +1,7 @@
 1.	Write a program to find area of followings:
 a.	Square 
 b.	Rectangle
-c.	Circle 
+c.	AboutShape.Shape.Circle
 d.	Cylinder 
 e.	Cube 
 2.	Write a program to calculate simple interest.
