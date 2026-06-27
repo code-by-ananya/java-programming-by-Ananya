@@ -7,12 +7,13 @@
       <module fileurl="file://$PROJECT_DIR$/3. classes and object/3. classes and object.iml" filepath="$PROJECT_DIR$/3. classes and object/3. classes and object.iml" />
       <module fileurl="file://$PROJECT_DIR$/4.controlstatement-math-string/4.controlstatement-math-string.iml" filepath="$PROJECT_DIR$/4.controlstatement-math-string/4.controlstatement-math-string.iml" />
       <module fileurl="file://$PROJECT_DIR$/Exception/Exception.iml" filepath="$PROJECT_DIR$/Exception/Exception.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Functional programming/Functional programming.iml" filepath="$PROJECT_DIR$/Functional programming/Functional programming.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Multithreadingandexecutor/MultithreadingandExecutor.iml" filepath="$PROJECT_DIR$/Multithreadingandexecutor/MultithreadingandExecutor.iml" />
       <module fileurl="file://$PROJECT_DIR$/Polymorphism/Polymorphism.iml" filepath="$PROJECT_DIR$/Polymorphism/Polymorphism.iml" />
       <module fileurl="file://$PROJECT_DIR$/Practice/Practice.iml" filepath="$PROJECT_DIR$/Practice/Practice.iml" />
       <module fileurl="file://$PROJECT_DIR$/collection and genrics/collection and genrics.iml" filepath="$PROJECT_DIR$/collection and genrics/collection and genrics.iml" />
       <module fileurl="file://$PROJECT_DIR$/java_programming.iml" filepath="$PROJECT_DIR$/java_programming.iml" />
       <module fileurl="file://$PROJECT_DIR$/loops/loops.iml" filepath="$PROJECT_DIR$/loops/loops.iml" />
-      <module fileurl="file://$PROJECT_DIR$/multithreading/multithreading.iml" filepath="$PROJECT_DIR$/multithreading/multithreading.iml" />
       <module fileurl="file://$PROJECT_DIR$/string/string.iml" filepath="$PROJECT_DIR$/string/string.iml" />
     </modules>
   </component>
